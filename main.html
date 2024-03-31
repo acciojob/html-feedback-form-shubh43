@@ -10,16 +10,18 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<h1>Feedback form</h1><form method="post">
+	<h1>Feedback Form</h1>
+	<form method="post">
 		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="name" minlength="3" maxlength="50" required>
-		<br>
-		<label for="portfolio">Portfolio</label>
-		<input type="URL" name="portfolio" id="portfolio" placeholder="paste your portfolio URL" required>
-<br><label for="favcolor">Favourite color</label>
-	<input type="color" id="favcolor"  required>
+		<input type="text" id="name" minlength="3"  maxlength="50" required>
 
-<br><label for="likeness">Likeness</label>
-<input type="Range" min="1" max="100" required></body>
+		<label for="portfolio">Portfolio</label>
+        <input type="url" id="portfolio" name="portfolio">
+
+		<label for="favColor">favcolor</label>
+        <input type="color" id="favColor" name="favColor" value="#ff0000">
+
+		<label for="likeness">Likeness</label>
+		<input type="range" min="1" max="100" value="50" id="likeness"></body>
 
 </html>
